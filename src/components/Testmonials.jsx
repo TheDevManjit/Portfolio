@@ -83,6 +83,26 @@ export default function Testimonials() {
             </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide className="px-4">
+          <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab mx-auto">
+            <img
+              className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"
+              src="/images/kameswar.jpg"
+              alt="testimonial 3"
+            />
+            <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative">
+              <p className="text-sm md:text-base mb-2 text-white">
+                “I worked with Manjit to make my website. I am speechless by looking at his work ethic and dedication. Working with him was the best decision I made.”
+              </p>
+              <h2 className="text-right text-[#459bd5] font-bold text-2xl md:text-4xl">
+               Kameshwar kumar
+              </h2>
+              <h5 className="text-right text-[#459bd5] text-base md:text-lg">
+             Gamer
+              </h5>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </section>
   );
