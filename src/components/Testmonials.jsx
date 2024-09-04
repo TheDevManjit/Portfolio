@@ -13,7 +13,7 @@ export default function Testimonials() {
   return (
     <section className="xl:max-w-[1200px] mx-auto pb-12">
       <h2 className="text-3xl sm:text-[40px] bg-[#111] sm:w-max relative z-10 font-bold px-4 py-2 mx-auto text-center text-[#1788ae] sm:border-2 border-[#1788ae] rounded-md">
-        What my clients are saying?
+        Testmonials
       </h2>
       <Swiper
         className="mySwiper !py-14"
