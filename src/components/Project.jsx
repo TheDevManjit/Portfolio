@@ -7,7 +7,7 @@ export default function Project() {
    const projects =[
     {
       title:'TeachMark Landing Page',
-      link:'www.teachmak.in',
+      link:'https://www.teachmark.in/',
       image:'teachmark.png',
       tech: ['React','Tailwind','CSS',"Emailjs","FramerJs"]
     },
