@@ -6,6 +6,12 @@ export default function Project() {
 
    const projects =[
     {
+      title:'WeatherApp',
+      link:'https://thedevmanjit.github.io/weatherApp/',
+      image:'weather.png.png',
+      tech: ['HTML','CSS','JAVASCRIPT']
+    },
+    {
       title:'Youtube',
       link:'https://thedevmanjit.github.io/Youtube_clone/',
       image:'youtube.png',
