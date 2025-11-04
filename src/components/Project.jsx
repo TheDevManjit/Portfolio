@@ -6,10 +6,34 @@ export default function Project() {
 
    const projects =[
     {
+      title:'TeachMark Landing Page',
+      link:'www.teachmak.in',
+      image:'teachmark.png',
+      tech: ['React','Tailwind','CSS',"Emailjs","FramerJs"]
+    },
+    {
       title:'WeatherApp',
       link:'https://thedevmanjit.github.io/weatherApp/',
-      image:'weather.png.png',
-      tech: ['HTML','CSS','JAVASCRIPT']
+      image:'weather.png',
+      tech: ['HTML','CSS','JAVASCRIPT',"API"]
+    },
+    {
+      title:'Landing Page using AI(bolt)',
+      link:'https://landing-page-next-manjeetdavids-projects.vercel.app/',
+      image:'aipage.png',
+      tech: ['Bolt AI',]
+    },
+    {
+      title:'TODO',
+      link:'https://thedevmanjit.github.io/Youtube_clone/',
+      image:'todo.png',
+      tech: ['React','Tailwind','Local Storage']
+    },
+     {
+      title:'Swiggy',
+      link:'https://sweggi.vercel.app/',
+      image:'swiggy.png',
+      tech: ['REACT','CSS','TAILWIND']
     },
     {
       title:'Youtube',
@@ -17,12 +41,7 @@ export default function Project() {
       image:'youtube.png',
       tech: ['HTML','CSS','JAVASCRIPT']
     },
-    {
-      title:'Swiggy',
-      link:'https://sweggi.vercel.app/',
-      image:'swiggy.png',
-      tech: ['REACT','CSS','TAILWIND']
-    },
+   
     {
       title:'PortFolio',
       link:'',
